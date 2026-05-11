@@ -50,4 +50,10 @@
 *   **环境隔离**：Agent 本身在一个 Conda 环境 (`local_agent`)，但它能通过绝对路径调用另一个 Conda 环境中的 Python，去执行项目脚本。这保证了二者环境的绝对独立，不会相互污染。
 *   **“硬直连”兜底**：在调试过程中，为规避模型偶尔不按预期调用工具的问题，设计了一个巧妙的“硬直连”环节，直接对用户指令中的关键词（如“运行项目”）进行拦截，确保核心功能绝对可靠。
 *   成果截图
-*   
+*   1.开始
+* <img width="2559" height="1530" alt="image" src="https://github.com/user-attachments/assets/8812563e-d575-499c-83d9-3590170d25c8" />
+*   2.结束
+*   <img width="2559" height="1530" alt="image" src="https://github.com/user-attachments/assets/6c827f87-aebb-40fd-94bc-df8619fcc6b7" />
+     
+
+    
